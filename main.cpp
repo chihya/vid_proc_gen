@@ -87,7 +87,7 @@ BOOL vpCheckRegisterStatus(LPCSTR fileName) {
         return FALSE;
     }
 
-    if (vpGetFileLength(fp) < 410) {
+    if (vpGetFileLength(fp) < 409) {
         fclose(fp);
         return FALSE;
     }
